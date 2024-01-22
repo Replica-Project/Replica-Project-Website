@@ -1,0 +1,62 @@
+#welcomeContainer {
+    padding-top: 200px;
+    color:white;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+#mainCategoriesContainer {
+    margin-bottom: 20px;
+}
+
+.categoryText {
+    color:white;
+    text-align: center;
+}
+
+.catImg {
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.catBut {
+    background-color: white;
+    border: black 2px solid;
+    width: 300px;
+    height: 300px;
+}
+
+#signup {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#invCode {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#signUpButton {
+    width: 150px;
+    height:50px;
+    margin-left:20px;
+    font-family: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white
+}
+
+#signUpButton:hover {
+    background-color: black;
+    color:white;
+}
+
+#pandaExp {
+    padding-top:30px;
+    padding-bottom: 10px;
+    background-color: #2D2D30;
+}

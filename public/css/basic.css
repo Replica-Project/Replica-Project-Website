@@ -1,0 +1,74 @@
+/* Add your custom styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1e;
+}
+
+header {
+    background-color: #2D2D30;
+}
+
+.leckerli {
+    color:white;
+    font-family: 'Leckerli One', cursive;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+#headerView {
+    background-color: #2D2D30;
+}
+
+.headerText {
+    color:lightgray
+}
+
+.headerText:hover {
+    color:white;
+}
+
+footer {
+    padding:10px;
+    background-color: #2D2D30;
+    height: 100px;
+}
+
+.standardText, h2 {
+    color:white;
+}
+
+.center-horizontally {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-vertically {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin10 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margin20 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.footerLink {
+    color:lightgray;
+}
+
+.footerLink:hover {
+    color:white;
+    text-decoration: none;
+}
