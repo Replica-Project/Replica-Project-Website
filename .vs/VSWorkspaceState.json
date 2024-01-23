@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public"
+    "\\public",
+    "\\public\\css",
+    "\\public\\js",
+    "\\public\\pageParts"
   ],
-  "SelectedNode": "\\public\\404.html",
+  "SelectedNode": "\\public\\pageParts\\header.html",
   "PreviewInSolutionExplorer": false
 }

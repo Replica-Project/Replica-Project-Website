@@ -9,8 +9,13 @@ header {
     background-color: #2D2D30;
 }
 
+#headerLogo:hover {
+    text-decoration:none;
+    color: white;
+}
+
 .leckerli {
-    color:white;
+    color: white;
     font-family: 'Leckerli One', cursive;
 }
 
@@ -23,7 +28,7 @@ a:visited {
 }
 
 .headerText {
-    color:lightgray
+    color:lightgray;
 }
 
 .headerText:hover {
