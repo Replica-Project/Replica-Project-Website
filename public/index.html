@@ -36,8 +36,6 @@
         <h1>Welcome to the <u class="leckerli">Replica Project</u></h1>
         <p>Your destination for stylish and affordable clothing.</p>
         <br>
-        <br>
-        <br>
         <h2>Current product count</h2>
         <p>(updated every minute)</p>
         <h1 class="leckerli">645</h1>
@@ -50,65 +48,65 @@
         <!--Shoes-->
         <div class="row margin20">
             <div id="shoesButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="shoesButton">
+                <div id="shoesButton" class="category">
                     <img class="catImg" src="img/web/shoesCat.png"><br>
-                    <h3 class="categoryText">Shoes</h3>
+                    <p class="categoryText">Shoes</p>
                 </div>
             </div>
             <!--T-Shirts-->
             <div id="tshirtButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="tshirtButton">
+                <div id="tshirtButton" class="category">
                     <img class="catImg" src="img/web/tshirtCat.png"><br>
-                    <h3 class="categoryText">T-Shirts</h3>
+                    <p class="categoryText">T-Shirts</p>
                 </div>
             </div>
             <!--Hoodies/Sweaters-->
             <div id="hoodiesButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="hoodiesButton">
+                <div id="hoodiesButton" class="category">
                     <img class="catImg" src="img/web/hoodieCat.png"><br>
-                    <h3 class="categoryText">Hoodies/Sweaters</h3>
+                    <p class="categoryText">Hoodies/Sweaters</p>
                 </div>
             </div>
             <!--Jackets-->
             <div id="jacketsButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="jacketsButton">
+                <div id="jacketsButton" class="category">
                     <img class="catImg" src="img/web/jacketCat.png"><br>
-                    <h3 class="categoryText">Jackets</h3>
+                    <p class="categoryText">Jackets</p>
                 </div>
             </div>
             <!--Bottoms-->
             <div id="bottomsButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="bottomsButton">
+                <div id="bottomsButton" class="category">
                     <img class="catImg" src="img/web/bottomsCat.png"><br>
-                    <h3 class="categoryText">Bottoms</h3>
+                    <h4 class="categoryText">Bottoms</h4>
                 </div>
             </div>
             <!--Headwear-->
             <div id="headwearButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="headwearButton">
+                <div id="headwearButton" class="category">
                     <img class="catImg" src="img/web/headwearCat.png"><br>
-                    <h3 class="categoryText">Headwear</h3>
+                    <p class="categoryText">Headwear</p>
                 </div>
             </div>
             <!--Watches-->
             <div id="watchesButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="watchesButton">
+                <div id="watchesButton" class="category">
                     <img class="catImg" src="img/web/watchesCat.png"><br>
-                    <h3 class="categoryText">Watches</h3>
+                    <p class="categoryText">Watches</p>
                 </div>
             </div>
             <!--Jewelry-->
             <div id="jewelryButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="jewelryButton">
+                <div id="jewelryButton" class="category">
                     <img class="catImg" src="img/web/jewelryCat.png"><br>
-                    <h3 class="categoryText">Jewelry</h3>
+                    <p class="categoryText">Jewelry</p>
                 </div>
             </div>
             <!--Misc-->
-            <div id="miscButton" class="col-xl-4 col-6 center-vertically categoryContainer">
-                <div id="miscButton">
+            <div id="miscButton" class="col-xl-4 col-12 center-vertically categoryContainer">
+                <div id="miscButton" class="category">
                     <img class="catImg" src="img/web/miscCat.png"><br>
-                    <h3 class="categoryText">Miscellaneous</h3>
+                    <p class="categoryText">Miscellaneous</p>
                 </div>
             </div>
         </div>
@@ -127,14 +125,16 @@
     </div>
 
     <!--Sign Up-->
-    <div id="signup" class="container.fluid">
-        <div class="row margin20">
-            <h2 class="leckerli">Sign Up to Pandabuy</h2>
-            <div class="col-xl-12 col-12">
+    <div id="signup" class="container.fluid margin20">
+        <h2 class="leckerli">Sign Up to Pandabuy</h2>
+        <div class="row">
+            <div class="col-xl-6 col-12">
                 <p style="color:white">Either sign up by scanning the QR code or clicking the Sign Up Button below.</p>
             </div>
-            <div class="col-xl-12 col-12">
+            <div class="col-xl-12 col-12 centerwhensmall">
                 <img id="invCode" src="img/web/inviteqr.png">
+            </div>
+            <div class="col-xl-12 col-12 centerwhensmall">
                 <button id="signUpButton" onclick="red()">Sign Up</button>
             </div>
         </div>
