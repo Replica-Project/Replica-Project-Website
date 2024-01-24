@@ -14,7 +14,7 @@ function generateProductList() {
         const productDiv = document.createElement('div');
         productDiv.className = 'productDiv ';
         // Use backticks (`) for template literals
-        productDiv.innerHTML = `<h3>${product.name}</h3><p>Price: $${product.price.toFixed(2)}</p>`;
+        productDiv.innerHTML = `<img src=${}><h3>$${product.name}</h3><p>Price: $$${product.price.toFixed(2)}</p>`;
         // Append the productDiv to the list
         list.appendChild(productDiv);
     });
